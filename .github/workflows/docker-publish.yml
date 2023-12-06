@@ -1,8 +1,8 @@
 name: Build caddy container
 
 on:
-  schedule:
-    - cron: '29 7 * * *'
+#  schedule:
+#    - cron: '29 7 * * *'
   push:
     branches: [ "main" ]
     tags: [ 'v*.*.*' ]
