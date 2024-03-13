@@ -3,6 +3,8 @@
   "extends": [
     "config:base"
   ],
+  "automergeStrategy": "squash",
+  "automergeType": "branch",
   "platformAutomerge": true,
   "packageRules": [
     {
