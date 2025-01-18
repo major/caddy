@@ -1,8 +1,7 @@
 FROM docker.io/library/caddy:2.9.1-builder AS builder
 
 RUN xcaddy build \
-    --with github.com/caddy-dns/porkbun \
-    --with github.com/libdns/porkbun
+    --with github.com/caddy-dns/porkbun 
 
 FROM docker.io/library/caddy:2.9.1
 
