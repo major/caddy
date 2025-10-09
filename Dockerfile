@@ -1,4 +1,4 @@
-FROM docker.io/library/caddy:2.10.2-builder@sha256:64c76bdfa2016d84eede962de3f51987771ab6a647a696a11448190b0234c63a AS builder
+FROM docker.io/library/caddy:2.10.2-builder@sha256:5ffdd1eb7c262d118977dfd8c4a0c34c7781366fbadef3b4daeac459cb30e99e AS builder
 
 RUN xcaddy build \
     --with github.com/caddy-dns/porkbun
