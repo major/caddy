@@ -4,8 +4,5 @@
         "config:recommended",
         ":automergeAll",
         "config:best-practices"
-    ],
-    "git-submodules": {
-      "enabled": true
-    }
+    ]
 }
